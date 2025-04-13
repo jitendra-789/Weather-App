@@ -4,11 +4,25 @@ An elegant, real-time weather app built entirely using **Swift** and **SwiftUI**
 
 ---
 
-## 📱 Screenshots
+## 📱 App Screenshots
 
-| Welcome View | Weather View | Location Manager | Weather Manager |
-|--------------|--------------|------------------|------------------|
-| ![Welcome](images/welcome.png) | ![Weather](images/weather.png) | ![LocationManager](images/location_manager.png) | ![WeatherManager](images/weather_manager.png) |
+### 🖼️ `WeatherView.swift`
+![WeatherView](images/weather_view.png)
+
+### 🖼️ `WelcomeView.swift`
+![WelcomeView](images/welcome_view.png)
+
+### 📱 Weather Screen (After Location is Fetched)
+![Weather](images/weather.png)
+
+### 📱 Welcome Screen (Before Location is Fetched)
+![Welcome](images/welcome.png)
+
+### 🧭 `LocationManager.swift`
+![LocationManager](images/location_manager.png)
+
+### 🌤 `WeatherManager.swift`
+![WeatherManager](images/weather_manager.png)
 
 ---
 
@@ -37,13 +51,13 @@ An elegant, real-time weather app built entirely using **Swift** and **SwiftUI**
 
 ## 🧩 App Architecture
 
-### 🧭 LocationManager.swift  
+### 🧭 `LocationManager.swift`  
 Handles real-time location permissions and coordinates using the **CoreLocation** framework.
 
-### 🌤 WeatherManager.swift  
+### 🌤 `WeatherManager.swift`  
 Fetches weather data using the **OpenWeather API** with Swift’s modern `async/await`. Parses JSON using `Codable`.
 
-### 📲 ContentView.swift  
+### 📲 `ContentView.swift`  
 Acts as the main entry point. Manages app state, shows loading or content views, and triggers weather fetch using `.task {}`.
 
 ### 🖼️ WeatherView.swift, WelcomeView.swift  
@@ -54,3 +68,8 @@ SwiftUI views that:
 
 ---
 
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ios-weather-app.git
