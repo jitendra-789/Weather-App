@@ -6,25 +6,24 @@ An elegant, real-time weather app built entirely using **Swift** and **SwiftUI**
 
 ## 📱 App Screenshots
 
+### 📱 Screens
+
+<p float="left">
+  <img src="images/Welcome.png" width="45%" alt="Welcome Screen" />
+  <img src="images/weather.png" width="45%" alt="Weather Screen" />
+</p>
+
 ### 🖼️ `WeatherView.swift`
 ![WeatherView](images/weather_view.png)
 
 ### 🖼️ `WelcomeView.swift`
 ![WelcomeView](images/welcome_view.png)
 
-### 📱 Weather Screen (After Location is Fetched)
-![Weather](images/weather.png)
-
-### 📱 Welcome Screen (Before Location is Fetched)
-![Welcome](images/Welcome.png)
-
 ### 🧭 `LocationManager.swift`
 ![LocationManager](images/location_manager.png)
 
 ### 🌤 `WeatherManager.swift`
 ![WeatherManager](images/weather_manager.png)
-
----
 
 ## 💡 Features
 
@@ -67,9 +66,3 @@ SwiftUI views that:
 - Handle fallback UI scenarios
 
 ---
-
-## 📦 Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/ios-weather-app.git
