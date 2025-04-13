@@ -16,7 +16,7 @@ An elegant, real-time weather app built entirely using **Swift** and **SwiftUI**
 ![Weather](images/weather.png)
 
 ### 📱 Welcome Screen (Before Location is Fetched)
-![Welcome](images/welcome.png)
+![Welcome](images/Welcome.png)
 
 ### 🧭 `LocationManager.swift`
 ![LocationManager](images/location_manager.png)
