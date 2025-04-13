@@ -54,8 +54,3 @@ SwiftUI views that:
 
 ---
 
-## 📦 Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/ios-weather-app.git
